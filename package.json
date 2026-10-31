@@ -1,12 +1,24 @@
-
 {
-  "name": "testing-frameworks-project",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
-  }
+    "name": "testing-frameworks-project",
+    "version": "1.0.0",
+    "description": "Calculator application demonstrating unit testing using Jest",
+    "main": "calculator.js",
+    "scripts": {
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "coverage": "jest --coverage",
+        "test:verbose": "jest --verbose"
+    },
+    "keywords": [
+        "javascript",
+        "jest",
+        "testing",
+        "unit-testing",
+        "calculator"
+    ],
+    "author": "Student",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
 }
